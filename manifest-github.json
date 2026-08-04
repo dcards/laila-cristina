@@ -1,0 +1,21 @@
+{
+  "short_name": "Laila Cristina - App",
+  "name": "Laila Cristina | Arquiteta e Designer de Interiores — Projetos 3D e Obras",
+  "icons": [
+    {
+      "src": "./favicon/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicon/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  /*"start_url": "index.html",*/
+  "start_url": "./?utm_source=pwa",
+  "background_color": "#000",
+  "display": "standalone",
+  "theme_color": "#000"
+}
