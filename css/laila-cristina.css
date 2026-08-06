@@ -1268,6 +1268,19 @@
         background: linear-gradient(145deg, rgba(40, 80, 130, 0.9), var(--glass-deep-blue)) !important;
     }
 
+		@media (orientation: landscape) {
+			/* Insira aqui o CSS para modo paisagem */
+			.video-bg, .bg-layer-img {
+				object-position: 50% 10%;
+			}
+		}
+		@media (min-width: 769px) {
+			/* Insira aqui o CSS para telas grandes */
+			.video-bg, .bg-layer-img {
+				object-position: 50% 10%;
+			}
+		}
+
   /* ==========================================================
      COMPATIBILIDADE COM ELEMENTOS INLINE EXISTENTES
      A prioridade é visual; dimensões e funcionalidades ficam
