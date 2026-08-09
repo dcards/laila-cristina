@@ -1271,13 +1271,13 @@
 		@media (orientation: landscape) {
 			/* Insira aqui o CSS para modo paisagem */
 			.video-bg, .bg-layer-img {
-				object-position: 50% 10%;
+				object-position: 50% 10% !important;
 			}
 		}
 		@media (min-width: 769px) {
 			/* Insira aqui o CSS para telas grandes */
 			.video-bg, .bg-layer-img {
-				object-position: 50% 10%;
+				object-position: 50% 10% !important;
 			}
 		}
 
